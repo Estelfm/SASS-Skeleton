@@ -1,0 +1,26 @@
+/*RWD breakpoints */
+$HDDesktopRes: 1920px;
+$DesktopRes: 1280px;
+$TabletLandscapeRes: 1024px;
+$TabletPortraitRes: 900px;
+$MobileLanscapeXLRes: 768px;
+$MobileLanscapeRes: 600px;
+$MobilePortraitRes: 480px;
+$MobilePortraitXSRes: 320px;
+
+/*RWD media queries
+Example: @media #{HDDesktop} {}
+ */
+$HDDesktop: "screen and (max-width:"$HDDesktopRes")";
+$Desktop: "screen and (max-width:"$DesktopRes")";
+$TabletLandscape: "screen and (max-width:"$TabletLandscapeRes")";
+$TabletPortrait: "screen and (max-width:"$TabletPortraitRes")";
+$MobileLanscapeXL: "screen and (max-width:"$MobileLanscapeXLRes")";
+$MobileLanscape: "screen and (max-width:"$MobileLanscapeRes")";
+$MobilePortrait: "screen and (max-width:"$MobilePortraitRes")";
+$MobilePortraitXS: "screen and (max-width:"$MobilePortraitXSRes")";
+
+/*Colors variables*/
+// $PrimaryColor:;
+// $SecondaryColor:;
+// $TertiaryColor:;
